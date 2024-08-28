@@ -1,0 +1,392 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin heightWidth($ancho,$alto){
+    width: $ancho;
+    height: $alto;
+}
+
+%primaryTypo{
+    font-family: $primaryTypography, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+%secondTypo{
+    font-family: $secondaryTypography,sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Typography */
+
+h1{
+    @extend %primaryTypo;
+     font-size: 4rem; 
+     font-weight: 700;   
+     text-align: center;     
+ }
+
+h2{
+    @extend %secondTypo;
+    font-size: 2rem;
+}
+
+h3{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+li a{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.titleCard{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 500;
+    color: nth($colorPalette, 5 );
+}
+
+.heartIcon{
+    color: nth($colorPalette, 1 );
+    font-size: 2.5rem;
+}
+
+.priceTypo{
+    @extend %secondTypo;
+    font-size: 3rem;
+    font-weight: 500;
+    color: nth($colorPalette, 1 );
+}
+
+.filterIcon{
+    color: nth($colorPalette, 4 );
+    font-size: 2rem;
+    
+}
+
+.spotifyTypo{
+    @extend %primaryTypo;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: nth($colorPalette, 1 );
+}
+
+.footerTitleTypo{
+    @extend %secondTypo;
+    font-size: 3rem;
+    font-weight: 700;
+    color: nth($colorPalette, 5 );
+    margin-bottom: 2rem;
+}
+
+.footerTypo{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: nth($colorPalette, 5 );
+}
+
+.copyTypo{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    color: nth($colorPalette, 2 );
+}
+
+.carritoTypo{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    color: nth($colorPalette, 4 );
+    padding-block: 1rem;
+}
+
+.subtituloTypo{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: nth($colorPalette, 5 );
+    padding-top: 1rem;
+}
+
+.sweetTypo{
+    @extend %secondTypo ;
+    font-size: 2rem;
+    color: nth($colorPalette, 5 );
+}
+
+.miCarritoTypo{
+    @extend %secondTypo;
+    font-size:2.5rem;
+    color: nth($colorPalette , 1 );
+}
+
+.descuentoTypo{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    color: nth($colorPalette, 4);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.totalTypo{
+    @extend %secondTypo;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: nth($colorPalette, 4);
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+
+.compraTypo{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 600;
+    color: nth($colorPalette, 4);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* Buttons */
+
+.cardButton{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: nth($colorPalette, 2 );
+    background-color: #ffff;
+    border-radius: 1rem;
+    width: 36rem;
+    border-color: nth($colorPalette, 2 );
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+   
+}
+
+.buttonVerMas{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+    background-color: nth($colorPalette, 2 );
+    border-radius: 10rem;
+    width: 36rem;
+    border-color: nth($colorPalette, 2 );
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    text-align: center;
+
+}
+
+.buttonVerMasGirls{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+    background-color: nth($colorPalette, 1 );
+    border-radius: 10rem;
+    width: 36rem;
+    border-color: nth($colorPalette, 1 );
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    text-align: center;
+
+}
+
+.buttonCarrito{
+    @extend %secondTypo;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #ffff;
+    background-color: nth($colorPalette, 2 );
+    border-radius: 10rem;
+    width: 26rem;
+    border-color: nth($colorPalette, 2 );
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    text-align: center;
+    margin-block: 2rem;
+
+}
+
+.btnEliminar{
+    color: nth($colorPalette, 5 );
+    font-size: 2rem;
+    border: 0;
+    background-color: nth($colorPalette, 3 );
+    cursor: pointer;
+}
+
+.toastTypo{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.btnDescuento{
+    @extend %secondTypo;
+    font-size: 1.5rem;
+    background-color: nth($colorPalette, 2 );
+    border: 0;
+    border-radius: 1rem;
+    width: 15rem;
+    color: #ffff;
+    padding: .5rem;
+    margin-left: 2rem;
+}
+
+.btnComprar{
+    @extend %secondTypo;
+    font-size: 2rem;
+    background-color: nth($colorPalette, 2 );
+    border: 0;
+    border-radius: 2rem;
+    width: 15vw;
+    color: #ffff;
+    padding: .5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.btnSeguirComprando{
+    @extend %secondTypo;
+    font-size: 2rem;
+    background-color: #ffff;
+    border-color:nth($colorPalette, 1 ) ;
+    border-radius: 2rem;
+    width: 15vw;
+    color: nth($colorPalette, 1 );
+    padding: .5rem;
+    margin-left: 2rem;
+    margin-block: 1rem;
+
+}
+
+
+/* NavBar */
+
+.headerHome {
+    padding-bottom: 60rem;
+    background-image: url("/assets/coverhome.jpg");
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    text-decoration: none;
+    color: nth($colorPalette, 4 );
+    margin-left: 2rem;
+}
+
+.navIcon{
+    color: nth($colorPalette, 4 );
+    // text-align: center;
+    font-size: 2rem;
+}
+
+.padIcon{
+    padding-left: 2rem;
+}
+
+.padLogo{
+    padding-right: 5rem;
+}
+
+.flexNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9rem 2rem 9rem;
+   
+
+}
+.colorNav{
+    background-color: #e4dfccc9;
+}
+
+
+
+/* librerias */
+
+.toastFormato{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15vw;
+}
+
+.sweetFormat{
+    width: 52em;
+}
+
+/* footer */
+
+.flexGeneralFooter{
+    display: flex;
+    flex-direction: column;    
+}
+
+.flexFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.flexSectionsFooter{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.marginFooter{
+   padding-top: 5rem;
+   padding-bottom: 1rem;
+   padding-left: 9rem;
+   padding-right: 9rem;   
+    
+}
+
+footer{
+
+    background-color: nth($colorPalette, 3 );
+  
+}
+
+.lineFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  
+}
+
+.copyFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.copyMargin{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

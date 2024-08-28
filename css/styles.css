@@ -1,0 +1,593 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.spotifyTypo, h1 {
+  font-family: "Convergence", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btnSeguirComprando, .btnComprar, .btnDescuento, .toastTypo, .buttonCarrito, .buttonVerMasGirls, .buttonVerMas, .cardButton, .compraTypo, .totalTypo, .descuentoTypo, .miCarritoTypo, .sweetTypo, .subtituloTypo, .carritoTypo, .copyTypo, .footerTypo, .footerTitleTypo, .priceTypo, .titleCard, li a, h3, h2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Typography */
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+li a {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.titleCard {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #8E8E8E;
+}
+
+.heartIcon {
+  color: #B47F7D;
+  font-size: 2.5rem;
+}
+
+.priceTypo {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #B47F7D;
+}
+
+.filterIcon {
+  color: #1D1D1D;
+  font-size: 2rem;
+}
+
+.spotifyTypo {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #B47F7D;
+}
+
+.footerTitleTypo {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #8E8E8E;
+  margin-bottom: 2rem;
+}
+
+.footerTypo {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #8E8E8E;
+}
+
+.copyTypo {
+  font-size: 1.5rem;
+  color: #4A8FA5;
+}
+
+.carritoTypo {
+  font-size: 1.5rem;
+  color: #1D1D1D;
+  padding-block: 1rem;
+}
+
+.subtituloTypo {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #8E8E8E;
+  padding-top: 1rem;
+}
+
+.sweetTypo {
+  font-size: 2rem;
+  color: #8E8E8E;
+}
+
+.miCarritoTypo {
+  font-size: 2.5rem;
+  color: #B47F7D;
+}
+
+.descuentoTypo {
+  font-size: 1.5rem;
+  color: #1D1D1D;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.totalTypo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1D1D1D;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.compraTypo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1D1D1D;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+/* Buttons */
+.cardButton {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #4A8FA5;
+  background-color: white;
+  border-radius: 1rem;
+  width: 36rem;
+  border-color: #4A8FA5;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+}
+
+.buttonVerMas {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  background-color: #4A8FA5;
+  border-radius: 10rem;
+  width: 36rem;
+  border-color: #4A8FA5;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  text-align: center;
+}
+
+.buttonVerMasGirls {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  background-color: #B47F7D;
+  border-radius: 10rem;
+  width: 36rem;
+  border-color: #B47F7D;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  text-align: center;
+}
+
+.buttonCarrito {
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+  background-color: #4A8FA5;
+  border-radius: 10rem;
+  width: 26rem;
+  border-color: #4A8FA5;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.btnEliminar {
+  color: #8E8E8E;
+  font-size: 2rem;
+  border: 0;
+  background-color: #E4DFCC;
+  cursor: pointer;
+}
+
+.toastTypo {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.btnDescuento {
+  font-size: 1.5rem;
+  background-color: #4A8FA5;
+  border: 0;
+  border-radius: 1rem;
+  width: 15rem;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 2rem;
+}
+
+.btnComprar {
+  font-size: 2rem;
+  background-color: #4A8FA5;
+  border: 0;
+  border-radius: 2rem;
+  width: 15vw;
+  color: white;
+  padding: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.btnSeguirComprando {
+  font-size: 2rem;
+  background-color: white;
+  border-color: #B47F7D;
+  border-radius: 2rem;
+  width: 15vw;
+  color: #B47F7D;
+  padding: 0.5rem;
+  margin-left: 2rem;
+  margin-block: 1rem;
+}
+
+/* NavBar */
+.headerHome {
+  padding-bottom: 60rem;
+  background-image: url("/assets/coverhome.jpg");
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li a {
+  text-decoration: none;
+  color: #1D1D1D;
+  margin-left: 2rem;
+}
+
+.navIcon {
+  color: #1D1D1D;
+  font-size: 2rem;
+}
+
+.padIcon {
+  padding-left: 2rem;
+}
+
+.padLogo {
+  padding-right: 5rem;
+}
+
+.flexNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9rem 2rem 9rem;
+}
+
+.colorNav {
+  background-color: rgba(228, 223, 204, 0.7882352941);
+}
+
+/* librerias */
+.toastFormato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 15vw;
+}
+
+.sweetFormat {
+  width: 52em;
+}
+
+/* footer */
+.flexGeneralFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexSectionsFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.marginFooter {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-left: 9rem;
+  padding-right: 9rem;
+}
+
+footer {
+  background-color: #E4DFCC;
+}
+
+.lineFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.copyFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.copyMargin {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* main */
+.h1Home {
+  color: #B47F7D;
+}
+
+.titularGrid {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 5fr 2fr 3fr;
+  grid-template-areas: ". . ." ". textTitular ." ". . .";
+}
+
+.textTitular {
+  grid-area: textTitular;
+}
+
+.marginBanner {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
+.bannerGrid {
+  display: grid;
+  column-gap: 2rem;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-areas: ". . . ." "shoesGrid  babyGrid  oneGrid  fourGrid" ". . . .";
+}
+
+.shoesGrid {
+  grid-area: shoesGrid;
+  justify-self: center;
+}
+
+.babyGrid {
+  grid-area: babyGrid;
+  justify-self: center;
+}
+
+.oneGrid {
+  grid-area: oneGrid;
+  justify-self: center;
+}
+
+.fourGrid {
+  grid-area: fourGrid;
+  justify-self: center;
+}
+
+.flexSecction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainSectionGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
+  grid-template-areas: ". ." "textDestacados textFiltro" ". .";
+}
+
+.textDestacados {
+  grid-area: textDestacados;
+  justify-self: start;
+}
+
+.textFiltro {
+  grid-area: textFiltro;
+  justify-self: end;
+}
+
+.flexFiltro {
+  display: flex;
+  flex-direction: row;
+}
+
+.marginIcon {
+  margin-right: 1rem;
+}
+
+.nameFlex {
+  width: 36rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.marginPrice {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.cardsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8rem;
+  margin-bottom: 3rem;
+}
+
+.sectionCarrito {
+  background-color: #E4DFCC;
+  padding-block: 1rem;
+  margin-top: 10rem;
+}
+
+.subtitulo {
+  display: flex;
+  flex-direction: row;
+}
+
+.paddCant {
+  padding-left: 24rem;
+}
+
+.paddPrecio {
+  padding-left: 22rem;
+}
+
+.paddSubtotal {
+  padding-left: 28rem;
+}
+
+.productosFormato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.lineCarrito {
+  width: 100%;
+}
+
+.flexSpotify {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+  text-align: center;
+  align-items: center;
+}
+
+.paddSpotify {
+  padding-left: 21rem;
+  padding-right: 21rem;
+}
+
+.emptyclass {
+  display: none;
+}
+
+.flexButtonCarrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.listaProdFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.5rem;
+}
+
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+}
+
+.imgTamano {
+  width: 55vw;
+}
+
+.sectionCero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.sectionDescuento {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 2rem 7rem 2rem 5rem;
+  background-color: #E4DFCC;
+}
+
+.codDescuento {
+  border-radius: 1rem;
+  border-color: white;
+  padding: 0.5rem;
+}
+
+.sectionCodigo {
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionTotal {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  padding: 2rem 7rem 2rem 5rem;
+  background-color: #E4DFCC;
+  margin-top: 2rem;
+}
+
+.sectionCompra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.finalizarCompra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 1rem;
+}
+
+.marginMain {
+  margin-bottom: 20rem;
+}
+
+.flexSubtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.productoTamano {
+  width: 5rem;
+  margin-right: 2rem;
+}
+
+.productoFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55vw;
+}
+
+.compraFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styles.css.map */

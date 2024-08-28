@@ -1,0 +1,170 @@
+/* main */
+
+.h1Home{
+    color: nth($colorPalette, 1 );
+}
+
+.titularGrid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 5fr 2fr 3fr;
+    grid-template-areas: 
+    ". . ."
+    ". textTitular ."
+    ". . ."
+    ;
+}
+
+.textTitular{
+    grid-area: textTitular;
+}
+
+.marginBanner{
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+
+.bannerGrid{
+    display: grid;
+    column-gap: 2rem;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+    ". . . ."
+    "shoesGrid  babyGrid  oneGrid  fourGrid"    
+    ". . . ."
+    ;
+}
+
+.shoesGrid{
+    grid-area: shoesGrid;
+    justify-self: center;
+}
+.babyGrid{
+    grid-area: babyGrid;
+    justify-self: center;
+}
+.oneGrid{
+    grid-area: oneGrid;
+    justify-self: center;
+}
+.fourGrid{
+    grid-area: fourGrid;
+    justify-self: center;
+}
+
+.flexSecction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainSectionGrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: 
+    ". ."
+    "textDestacados textFiltro"
+    ". ."
+    ;
+}
+
+.textDestacados{
+    grid-area: textDestacados;
+    justify-self: start;
+}
+.textFiltro{
+    grid-area: textFiltro;
+    justify-self: end;
+}
+
+.flexFiltro{
+    display: flex;
+    flex-direction: row;
+}
+
+.marginIcon{
+    margin-right: 1rem;
+}
+
+.nameFlex{
+    width: 36rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.marginPrice{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cardsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8rem;
+    margin-bottom: 3rem;
+
+}
+
+
+
+.sectionCarrito{
+    background-color: nth($colorPalette, 3 );
+    padding-block: 1rem;
+    margin-top: 10rem;
+}
+
+.subtitulo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.paddCant{
+    padding-left: 24rem;
+}
+
+.paddPrecio{
+    padding-left: 22rem;
+}
+
+.paddSubtotal{
+    padding-left: 28rem;
+}
+
+.productosFormato{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 1rem;
+
+}
+
+.lineCarrito{
+    width: 100%;
+}
+.flexSpotify{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    text-align: center;
+    align-items: center;
+}
+.paddSpotify{
+    padding-left: 21rem;
+    padding-right: 21rem;
+}
+
+.emptyclass{
+    display: none;
+}
+
+.flexButtonCarrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}

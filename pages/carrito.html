@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre la mejor ropa de bebés y niños en BabyBear. Ofrecemos una amplia variedad de prendas cómodas, seguras y a la moda para tus pequeños. ¡Compra ahora y aprovecha nuestras ofertas exclusivas!">
+    <title>BabyBear | Home</title>
+    <link rel="shortcut icon" href="./assets/isologo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <section class="flexNav colorNav">
+            <div class="padLogo">
+                <a href="../index.html">
+                <img src="../assets/logo_nav.svg" alt="logo de Baby Bear">
+                </a>
+            </div>
+            <div class="navIcon">
+                <ion-icon name="search-outline" class="padIcon"></ion-icon>
+                <ion-icon name="person-outline" class="padIcon"></ion-icon>
+                <ion-icon name="cart-outline" class="padIcon"></ion-icon>
+            </div>
+        </section>
+
+    </header>   
+
+    <main class="marginMain">
+        <section class="marginBanner sectionCero">
+            <div>                
+                <div class="sectionOne">
+                    <h2 class="miCarritoTypo">Mi carrito</h2> 
+                    <div class="listaProdFlex subtituloTypo">
+                        <p>Producto/s</p>
+                        <p>Cantidad</p>
+                        <p>Precio</p>
+                        <p>Subtotal</p>                         
+                    </div>
+                    <img src="../assets/line_carrito.svg" alt="" class="imgTamano">                 
+                </div>
+            </div>
+            <div class="sectionDescuento">
+                <p class="descuentoTypo">¿Tenes codigo de descuento?</p>
+                <div class="sectionCodigo">
+                    <form action="" id="alerta-form" class="sectionCodigo">
+                        <input type="text" id="cod-descuento" class="codDescuento">
+                        <input type="submit" id="alerta-submit" class="btnDescuento" value="Enviar">
+                    </form>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="sectionCompra marginBanner">
+            <div class="sectionOne">
+                <div class="compraFlex " id="pag-carrito">
+                    <!-- se llena con js -->
+           
+                </div>
+            </div>
+
+            <div>
+                <div class="sectionTotal">
+                    <h3 class="compraTypo">Detalle de la compra</h3>
+                    <div id="sub-total">
+                    <!-- se agrega en js -->
+                    </div>
+
+                    <div id="codigo-desc">
+                        <!-- se agrega en js -->
+             
+                    </div>
+                    <div id="totalisimo">
+                
+                    </div>
+                </div>
+                <div class="finalizarCompra">
+                    <input type="submit" class="btnComprar">
+                    <input type="submit" class="btnSeguirComprando">
+                </div>             
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="flexGeneralFooter marginFooter">
+        <section class="flexFooter">
+            <div>
+                <img src="../assets/logo_footer.svg" alt="">
+            </div>
+            <div class="flexSectionsFooter">
+                <h4 class="footerTitleTypo">Ayuda</h4>
+                <ul class="flexSectionsFooter footerTypo">
+                    <li>Preguntas frecuentes</li>
+                    <li>Tabla de talles</li>
+                    <li>Politicas de cambios</li>
+                    
+                </ul>
+            </div>
+            <div class="flexSectionsFooter">
+                <h4 class="footerTitleTypo">Nosotros</h4>
+                <ul class="flexSectionsFooter footerTypo">
+                    <li>Sobre nosotros</li>
+                    <li>Terminos y condiciones</li>
+                    <li>Nuestros locales</li>
+                </ul>
+            </div>
+            <div class="flexSectionsFooter">
+                <h4 class="footerTitleTypo">Envios</h4>
+                <ul class="flexSectionsFooter footerTypo">
+                    <li>Seguimiento de envio</li>
+                    <li>Como comprar</li>
+                    <li>Formas de envio</li>
+                </ul>
+            </div>
+        </section>
+        <section class="lineFooter">
+            <div>
+                <img src="./assets/line_footer.svg" alt="">
+            </div>
+            <div class="copyFooter copyMargin">
+                <img src="./assets/copyright.svg" alt="">
+                <p class="copyTypo">2024 BabyBear. Todos los derechos reservados</p>
+
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
