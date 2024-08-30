@@ -1,0 +1,210 @@
+[
+    {
+        "id": "chaleco-otto",
+        "categoria": "niño",
+        "titulo": "Chaleco Otto",
+        "precio": 3000,
+        "img": "./assets/chaleco_otto.jpg",
+        "imgcar": "../assets/chaleco_otto.jpg"
+    },
+    {
+        "id": "camisa-cuadros",
+        "categoria": "niño",
+        "titulo": "Camisa Cuadros",
+        "precio": 5000,
+        "img": "./assets/camisa_cuadros.jpg",
+        "imgcar": "../assets/camisa_cuadros.jpg"
+    },
+    {
+        "id": "remera-tsuki",
+        "categoria": "niña",
+        "titulo": "Remera Tsuki",
+        "precio": 3500,
+        "img": "./assets/remera_tsuki.jpg",
+        "imgcar": "../assets/remera_tsuki.jpg"
+    },
+    {
+        "id": "vestido-lilo",
+        "categoria": "niña",
+       " titulo": "Vestido Lilo",
+        "precio": 12000,
+        "img": "./assets/vestido_lilo.jpg", 
+        "imgcar": "../assets/vestido_lilo.jpg"    
+    },
+    {
+        "id": "camisa-yoga",
+        "categoria": "niño",
+        "titulo": "Camisa Yoga",
+        "precio": 8000,
+        "img": "./assets/camisa_yoga.jpg",
+        "imgcar": "../assets/camisa_yoga.jpg"   
+    },
+    {
+        "id": "capri-geminis",
+        "categoria": "niña",
+        "titulo": "Capri Geminis",
+       " precio": 12000,
+        "img": "./assets/capri_geminis.jpg", 
+        "imgcar": "../assets/capri_geminis.jpg"  
+    },
+    {
+        "id": "remera-maya",
+        "categoria": "niña",
+        "titulo": "Remera Maya",
+        "precio": 8000,
+        "img": "./assets/remera_maya.jpg",
+        "imgcar": "../assets/remera_maya.jpg"   
+    },
+    {
+        "id": "campera-lolo",
+        "categoria": "bebe",
+        "titulo": "Campera Lolo",
+        "precio": 28000,
+        "img": "./assets/campera_lolo.jpg",
+        "imgcar": "../assets/campera_lolo.jpg"   
+    },
+    {
+        "id": "vestido-lali",
+        "categoria": "niña",
+        "titulo": "Vestido Lali",
+        "precio": 16000,
+        "img": "./assets/vestido_lali.jpg",
+        "imgcar": "../assets/vestido_lali.jpg"   
+    },
+    {
+        "id": "sweter-nyc",
+        "categoria": "niña",
+        "titulo": "Sweter NYC",
+        "precio": 18500,
+        "img": "./assets/sweter_nyc.png",
+        "imgcar": "../assets/sweter_nyc.png"   
+    },
+    {
+        "id": "pollera-blue",
+        "categoria": "niña",
+        "titulo": "Pollera Blue",
+        "precio": 11200,
+        "img": "./assets/pollera_blue.png",
+        "imgcar": "../assets/pollera_blue.png"   
+    },
+    {
+        "id": "remera-mara",
+        "categoria": "niña",
+        "titulo": "Remera Mara",
+        "precio": 10800,
+        "img": "./assets/remera_mara.png",
+        "imgcar": "../assets/remera_mara.png"   
+    },
+    {
+        "id": "remera-pink",
+        "categoria": "niña",
+        "titulo": "Remera Pink",
+        "precio": 9000,
+        "img": "./assets/remera_pink.png",
+        "imgcar": "../assets/remera_pink.png"   
+    },
+    {
+        "id": "remera-jack",
+        "categoria": "niño",
+        "titulo": "Remera Jack",
+        "precio": 10500,
+        "img": "./assets/remera_jack.png",
+        "imgcar": "../assets/remera_jack.png"   
+    },
+    {
+        "id": "campera-max",
+        "categoria": "niño",
+        "titulo": "Campera Max",
+        "precio": 16000,
+        "img": "./assets/campera_max.png",
+        "imgcar": "../assets/campera_max.png"   
+    },
+    {
+        "id": "jean-picis",
+        "categoria": "niño",
+        "titulo": "Jean Picis",
+        "precio": 12500,
+        "img": "./assets/jean_picis.png",
+        "imgcar": "../assets/jean_picis.png"   
+    },
+    {
+        "id": "campera-rock",
+        "categoria": "niño",
+        "titulo": "Campera Rock",
+        "precio": 22000,
+        "img": "./assets/campera_rock.png",
+        "imgcar": "../assets/campera_rock.png"   
+    },
+    {
+        "id": "bermuda-sport",
+        "categoria": "niño",
+        "titulo": "Bermuda Sport",
+        "precio": 17000,
+        "img": "./assets/bermuda_sport.jpg",
+        "imgcar": "../assets/bermuda_sport.jpg"   
+    },
+    {
+        "id": "vestido-anita",
+        "categoria": "bebe",
+        "titulo": "Vestido Anita",
+        "precio": 14000,
+        "img": "./assets/vestido_anita.png",
+        "imgcar": "../assets/vestido_anita.png"   
+    },
+    {
+        "id": "body-fred",
+        "categoria": "bebe",
+        "titulo": "Body Fred",
+        "precio": 12000,
+        "img": "./assets/body_fred.png",
+        "imgcar": "../assets/body_fred.png"   
+    },
+    {
+        "id": "body-wilson",
+        "categoria": "bebe",
+        "titulo": "Body Wilson",
+        "precio": 14000,
+        "img": "./assets/body_wilson.png",
+        "imgcar": "../assets/body_wilson.png"   
+    },
+    {
+        "id": "body-mora",
+        "categoria": "bebe",
+        "titulo": "Body Mora",
+        "precio": 10500,
+        "img": "./assets/body_mora.png",
+        "imgcar": "../assets/body_mora.png"   
+    },
+    {
+        "id": "manta-puff",
+        "categoria": "bebe",
+        "titulo": "Manta Puff",
+        "precio": 9000,
+        "img": "./assets/manta_puff.png",
+        "imgcar": "../assets/manta_puff.png"   
+    },
+    {
+        "id": "vestido-nala",
+        "categoria": "bebe",
+        "titulo": "Vestido Nala",
+        "precio": 16800,
+        "img": "./assets/vestido_nala.png",
+        "imgcar": "../assets/vestido_nala.png"   
+    },
+    {
+        "id": "body-citricos",
+        "categoria": "bebe",
+        "titulo": "Body Citricos",
+        "precio": 11200,
+        "img": "./assets/body_citricos.png",
+        "imgcar": "../assets/body_citricos.png"   
+    },
+    {
+        "id": "body-tobi",
+        "categoria": "bebe",
+        "titulo": "Body Tobi",
+        "precio": 9200,
+        "img": "./assets/body_tobi.png",
+        "imgcar": "../assets/body_tobi.png"   
+    }
+]

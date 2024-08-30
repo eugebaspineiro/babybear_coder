@@ -11,19 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <header class="headerHome">
+    <header>
         <section class="flexNav colorNav">
             <div class="padLogo">
-                <img src="./assets/logo_nav.svg" alt="logo de Baby Bear">
+                <img src="../assets/logo_nav.svg" alt="logo de Baby Bear">
             </div>
             <div class="navIcon">
                 <ion-icon name="search-outline" class="padIcon"></ion-icon>
                 <ion-icon name="person-outline" class="padIcon"></ion-icon>
-                <a href="./pages/carrito.html">
+                <a href="/pages/carrito.html">
                     <ion-icon name="cart-outline" class="padIcon"></ion-icon>
                 </a>
             </div>
@@ -32,20 +32,14 @@
     </header>   
 
     <main>
-        <div class="titularGrid">
-            <h1 class="textTitular h1Home">Porque cada prenda es un abrazo, viste a tus pequeños con todo el amor y cariño que se merecen.</h1>
-        </div>
         <section class="bannerGrid marginBanner">
-            <article class="shoesGrid flexSecction"> 
-                <a href="./pages/zapatos.html" class="flexSecction">
-                    <img src="./assets/circle_home_01.png" alt="">          
-                    <h2>Zapatos</h2>  
-                </a>               
-          
+            <article class="shoesGrid flexSecction">                
+                <img src="../assets/circle_home_01.png" alt="">          
+                <h2>Zapatos</h2>            
             </article>
             <article class="babyGrid flexSecction">
                 <div>
-                    <img src="./assets/circle_home_02.png" alt="">
+                    <img src="../assets/circle_home_02.png" alt="">
                 </div>
                 <div>
                     <h2>Bebes</h2>
@@ -53,7 +47,7 @@
             </article>
             <article class="oneGrid flexSecction">
                 <div>
-                    <img src="./assets/circle_home_03.png" alt="">
+                    <img src="../assets/circle_home_03.png" alt="">
                 </div>
                 <div>
                     <h2>Niñas</h2>
@@ -61,7 +55,7 @@
             </article>
             <article class="fourGrid flexSecction">
                 <div>
-                    <img src="./assets/circle_boys_03.png" alt="">
+                    <img src="../assets/circle_boys_03.png" alt="">
                 </div>
                 <div>
                     <h2>Niños</h2>
@@ -79,50 +73,13 @@
         <section class="marginBanner cardsGrid" id="productos">
             <!-- esta seccion se llena con js -->
         </section>
-        <section class="sectionCarrito">
-            <div class="marginBanner">
-                <h2 class="textDestacados">Carrito</h2>
-                <div class="carrito">
-                    <div>
-                        <div class="subtitulo subtituloTypo">
-                            <p>Producto/s</p>
-                            <p class="paddCant">Cantidad</p>
-                            <p class="paddPrecio">Precio</p>
-                            <p class="paddSubtotal">Subtotal</p>                                                       
-                        </div>
-                        <img src="./assets/line_carrito.svg" alt="" class="lineCarrito">
-                    </div>
-                    <div id="carrito-vacio" class="">
-                        <p class="carritoTypo">No agregaste nada al carrito aun</p>
-                    </div>
-                    <div class="carrito-productos emptyclass" id="carrito-productos">
-                        <!-- esta seccion se llena con js -->
-                    </div>                    
-                    <div class="carrito-total">
-                        <h2>Total: <span id="carrito-total">$0</span></h2>
-                    </div>
-                    <div class="flexButtonCarrito">
-                        <button class="emptyclass buttonCarrito" id="vaciar-carrito">Vaciar carrito</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="marginBanner flexSpotify">
-            <div>
-                <img src="./assets/spotify.jpg" alt="imagen de una madre y un hijo en la naturaleza">
-            </div>
-            <div class="spotifyTypo paddSpotify">
-                <p>Seguinos en spotify</p>
-                <p>babybear.arg</p> 
-            </div>           
-        </section>
-
+        
     </main>
 
     <footer class="flexGeneralFooter marginFooter">
         <section class="flexFooter">
             <div>
-                <img src="./assets/logo_footer.svg" alt="">
+                <img src="../assets/logo_footer.svg" alt="">
             </div>
             <div class="flexSectionsFooter">
                 <h4 class="footerTitleTypo">Ayuda</h4>
@@ -152,7 +109,7 @@
         </section>
         <section class="lineFooter">
             <div>
-                <img src="./assets/line_footer.svg" alt="">
+                <img src="../assets/line_footer.svg" alt="">
             </div>
             <div class="copyFooter copyMargin">
                 <img src="./assets/copyright.svg" alt="">
@@ -165,6 +122,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../js/carrito.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
