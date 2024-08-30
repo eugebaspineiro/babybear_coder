@@ -26,7 +26,7 @@
     {
         "id": "vestido-lilo",
         "categoria": "niña",
-       " titulo": "Vestido Lilo",
+       "titulo": "Vestido Lilo",
         "precio": 12000,
         "img": "./assets/vestido_lilo.jpg", 
         "imgcar": "../assets/vestido_lilo.jpg"    
@@ -43,7 +43,7 @@
         "id": "capri-geminis",
         "categoria": "niña",
         "titulo": "Capri Geminis",
-       " precio": 12000,
+        "precio": 12000,
         "img": "./assets/capri_geminis.jpg", 
         "imgcar": "../assets/capri_geminis.jpg"  
     },

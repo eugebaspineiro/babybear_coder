@@ -178,13 +178,18 @@ li a{
     background-color: #ffff;
     border-radius: 1rem;
     width: 36rem;
-    border-color: nth($colorPalette, 2 );
+    border: 2px solid nth($colorPalette, 2 );
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     text-align: center;
+    cursor: pointer;
    
 }
 
+.cardButton:hover {
+    background-color: nth($colorPalette, 2 );
+    color: #ffff;
+}
 .buttonVerMas{
     @extend %secondTypo;
     font-size: 2rem;
