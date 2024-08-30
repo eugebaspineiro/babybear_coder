@@ -3,6 +3,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin: .5rem;
+    align-items: center;
+  
 }
 
 .sectionOne{
@@ -86,9 +88,46 @@
     flex-direction: row;
     justify-content: space-between;
     width: 55vw;
+    align-items: center;
 }
 
 .compraFlex{
     display: flex;
     flex-direction: column;
+}
+
+.marginRight{
+    margin-right: 20rem;
+}
+
+.marginProd{
+    margin-right: 10rem;
+}
+
+.ionTamano{
+    font-size: 2rem;
+    cursor: pointer;
+    color: nth($colorPalette, 5 );
+
+}
+
+.ionTamano:hover {
+    color: nth($colorPalette, 1 );
+}
+
+
+.gridProd{
+    display: grid;
+    grid-template-columns: 9fr 2fr 3fr 3fr 1fr;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.prodNuevoFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
 }

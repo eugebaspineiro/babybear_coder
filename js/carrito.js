@@ -15,15 +15,18 @@ let carritoLS = JSON.parse(localStorage.getItem("carrito"));
 
 carritoLS.forEach(producto => {
     let div = document.createElement("div");
-    div.classList.add("productoFlex");
+    div.classList.add("gridProd");
     div.innerHTML= `
-            <div class="listaProdFlex">
+            <div class="prodNuevoFlex">
             <img src= "${producto.imgcar}" class="productoTamano">                  
             <p class="subtituloTypo">${producto.titulo}</p>
-            </div>                        
+            </div>   
+                                
             <p class="subtituloTypo">${producto.cantidad}</p>
             <p class="subtituloTypo">$${producto.precio}</p>
             <p class="subtituloTypo">${producto.cantidad * producto.precio}</p>
+            <ion-icon name="trash-outline" class= "ionTamano"></ion-icon>
+         
     
     `;
 
