@@ -224,30 +224,43 @@ li a {
   color: white;
   padding: 0.5rem;
   margin-left: 2rem;
+  cursor: pointer;
 }
 
 .btnComprar {
   font-size: 2rem;
   background-color: #4A8FA5;
-  border: 0;
   border-radius: 2rem;
-  width: 15vw;
+  width: 25vw;
   color: white;
   padding: 0.5rem;
   margin-left: 2rem;
   margin-top: 1rem;
+  cursor: pointer;
+  border: 2px solid #4A8FA5;
+}
+
+.btnComprar:hover {
+  background-color: #274b57;
+  border: 2px solid #274b57;
 }
 
 .btnSeguirComprando {
   font-size: 2rem;
   background-color: white;
-  border-color: #B47F7D;
   border-radius: 2rem;
-  width: 15vw;
+  width: 25vw;
   color: #B47F7D;
   padding: 0.5rem;
   margin-left: 2rem;
   margin-block: 1rem;
+  cursor: pointer;
+  border: 2px solid #B47F7D;
+}
+
+.btnSeguirComprando:hover {
+  background-color: #B47F7D;
+  color: white;
 }
 
 /* NavBar */
@@ -294,6 +307,7 @@ li a {
   background-color: rgba(228, 223, 204, 0.7882352941);
 }
 
+/* body */
 /* librerias */
 .toastFormato {
   display: flex;
@@ -502,10 +516,6 @@ footer {
   padding-right: 21rem;
 }
 
-.emptyclass {
-  display: none;
-}
-
 .flexButtonCarrito {
   display: flex;
   flex-direction: row;
@@ -638,6 +648,10 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+}
+
+.emptyclass {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

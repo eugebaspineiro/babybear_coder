@@ -60,10 +60,17 @@
 
         <section class="sectionCompra marginBanner">
             <div class="sectionOne">
-                <div class="compraFlex " id="pag-carrito">
-                    <!-- se llena con js -->
-           
+                <div id="carrito-vacio" class="">
+                    <p class="carritoTypo">No agregaste nada al carrito aun</p>
                 </div>
+                <div class="compraFlex emptyclass" id="pag-carrito">
+                    <!-- se llena con js -->           
+                </div>
+                <!-- 
+                <div class="flexButtonCarrito">
+                    <button class="emptyclass buttonCarrito" id="vaciar-carrito">Vaciar carrito</button>
+                </div> 
+                -->
             </div>
 
             <div>
@@ -82,8 +89,8 @@
                     </div>
                 </div>
                 <div class="finalizarCompra">
-                    <input type="submit" class="btnComprar">
-                    <input type="submit" class="btnSeguirComprando">
+                    <input type="submit" class="btnComprar" value="Finalizar compra">
+                    <input type="submit" id="vaciar-carrito" class="btnSeguirComprando emptyclass" value="Vaciar carrito">
                 </div>             
             </div>
         </section>
