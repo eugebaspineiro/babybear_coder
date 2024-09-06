@@ -152,7 +152,7 @@ const agregarSubtotal = () => {
     contenedorSubtotal.append(div);
 }
 
-// agregarSubtotal();
+
 
 const contenedorTotal = document.querySelector("#totalisimo");
 

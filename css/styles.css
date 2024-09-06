@@ -22,7 +22,7 @@ a {
   font-style: normal;
 }
 
-.btnSeguirComprando, .btnComprar, .btnDescuento, .toastTypo, .buttonCarrito, .buttonVerMasGirls, .buttonVerMas, .cardButton, .compraTypo, .totalTypo, .descuentoTypo, .miCarritoTypo, .sweetTypo, .subtituloTypo, .carritoTypo, .copyTypo, .footerTypo, .footerTitleTypo, .priceTypo, .titleCard, li a, h3, h2 {
+.compra-activa, .btnSeguirComprando, .btnComprar, .btnDescuento, .toastTypo, .buttonCarrito, .buttonVerMasGirls, .buttonVerMas, .cardButton, .compraTypo, .totalTypo, .descuentoTypo, .miCarritoTypo, .sweetTypo, .subtituloTypo, .carritoTypo, .copyTypo, .footerTypo, .footerTitleTypo, .priceTypo, .titleCard, li a, h3, h2 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -301,12 +301,17 @@ li a {
 }
 
 .navIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   color: #1D1D1D;
   font-size: 2rem;
 }
 
 .padIcon {
   padding-left: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .padLogo {
@@ -323,6 +328,14 @@ li a {
 
 .colorNav {
   background-color: rgba(228, 223, 204, 0.7882352941);
+}
+
+.compra-activa {
+  font-size: 1rem;
+  background-color: rgb(143, 24, 24);
+  color: white;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border-radius: 100%;
 }
 
 /* body */

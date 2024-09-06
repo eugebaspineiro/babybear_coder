@@ -341,6 +341,9 @@ li a {
 }
 
 .navIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: nth($colorPalette, 4 );
     // text-align: center;
     font-size: 2rem;
@@ -348,6 +351,8 @@ li a {
 
 .padIcon{
     padding-left: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
 }
 
 .padLogo{
@@ -365,6 +370,16 @@ li a {
 }
 .colorNav{
     background-color: #e4dfccc9;
+}
+
+
+.compra-activa{
+    @extend %secondTypo;
+    font-size: 1rem;
+    background-color: rgb(143, 24, 24);
+    color:  #ffff;
+    padding: .20rem .50rem .20rem .50rem;
+    border-radius: 100%;
 }
 
 /* body */

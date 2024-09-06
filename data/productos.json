@@ -206,5 +206,54 @@
         "precio": 9200,
         "img": "./assets/body_tobi.png",
         "imgcar": "../assets/body_tobi.png"   
+    },
+    {
+        "id": "guillermina-flores",
+        "categoria": "zapatos",
+        "titulo": "Guillermina Flores",
+        "precio": 16200,
+        "img": "./assets/guillermina_flores.png",
+        "imgcar": "../assets/guillermina_flores.png"   
+    },
+    {
+        "id": "zapatillas depor",
+        "categoria": "zapatos",
+        "titulo": "Zapatillas Depor",
+        "precio": 25000,
+        "img": "./assets/zapatillas_depor.png",
+        "imgcar": "../assets/zapatillas_depor.png"   
+    },
+    {
+        "id": "zapatillas margaritas",
+        "categoria": "zapatos",
+        "titulo": "Zapatillas Margaritas",
+        "precio": 33500,
+        "img": "./assets/zapatillas_margaritas.png",
+        "imgcar": "../assets/zapatillas_margaritas.png"   
+    },
+    {
+        "id": "zapatillas run",
+        "categoria": "zapatos",
+        "titulo": "Zapatillas Run",
+        "precio": 35000,
+        "img": "./assets/zapatillas_fox.png",
+        "imgcar": "../assets/zapatillas_fox.png"   
+    },
+    {
+        "id": "zapatillas urb",
+        "categoria": "zapatos",
+        "titulo": "Zapatillas Urb",
+        "precio": 27500,
+        "img": "./assets/zapatillas_urb.png",
+        "imgcar": "../assets/zapatillas_urb.png"   
+    },
+    {
+        "id": "balerinas conejitos",
+        "categoria": "zapatos",
+        "titulo": "Balerinas Conejitos",
+        "precio": 24200,
+        "img": "./assets/balerinas_conejitos.png",
+        "imgcar": "../assets/balerinas_conejitos.png"   
     }
+
 ]
