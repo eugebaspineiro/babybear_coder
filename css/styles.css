@@ -263,6 +263,24 @@ li a {
   color: white;
 }
 
+.btn-categoria {
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.btn-categoria:hover {
+  text-decoration: underline;
+  color: #4A8FA5;
+}
+
+.seccion-on {
+  color: #4A8FA5;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
 /* NavBar */
 .headerHome {
   padding-bottom: 60rem;

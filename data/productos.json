@@ -1,7 +1,7 @@
 [
     {
         "id": "chaleco-otto",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Chaleco Otto",
         "precio": 3000,
         "img": "./assets/chaleco_otto.jpg",
@@ -9,7 +9,7 @@
     },
     {
         "id": "camisa-cuadros",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Camisa Cuadros",
         "precio": 5000,
         "img": "./assets/camisa_cuadros.jpg",
@@ -17,7 +17,7 @@
     },
     {
         "id": "remera-tsuki",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Remera Tsuki",
         "precio": 3500,
         "img": "./assets/remera_tsuki.jpg",
@@ -25,7 +25,7 @@
     },
     {
         "id": "vestido-lilo",
-        "categoria": "niña",
+        "categoria": "nina",
        "titulo": "Vestido Lilo",
         "precio": 12000,
         "img": "./assets/vestido_lilo.jpg", 
@@ -33,7 +33,7 @@
     },
     {
         "id": "camisa-yoga",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Camisa Yoga",
         "precio": 8000,
         "img": "./assets/camisa_yoga.jpg",
@@ -41,7 +41,7 @@
     },
     {
         "id": "capri-geminis",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Capri Geminis",
         "precio": 12000,
         "img": "./assets/capri_geminis.jpg", 
@@ -49,7 +49,7 @@
     },
     {
         "id": "remera-maya",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Remera Maya",
         "precio": 8000,
         "img": "./assets/remera_maya.jpg",
@@ -65,7 +65,7 @@
     },
     {
         "id": "vestido-lali",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Vestido Lali",
         "precio": 16000,
         "img": "./assets/vestido_lali.jpg",
@@ -73,7 +73,7 @@
     },
     {
         "id": "sweter-nyc",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Sweter NYC",
         "precio": 18500,
         "img": "./assets/sweter_nyc.png",
@@ -81,7 +81,7 @@
     },
     {
         "id": "pollera-blue",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Pollera Blue",
         "precio": 11200,
         "img": "./assets/pollera_blue.png",
@@ -89,7 +89,7 @@
     },
     {
         "id": "remera-mara",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Remera Mara",
         "precio": 10800,
         "img": "./assets/remera_mara.png",
@@ -97,7 +97,7 @@
     },
     {
         "id": "remera-pink",
-        "categoria": "niña",
+        "categoria": "nina",
         "titulo": "Remera Pink",
         "precio": 9000,
         "img": "./assets/remera_pink.png",
@@ -105,7 +105,7 @@
     },
     {
         "id": "remera-jack",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Remera Jack",
         "precio": 10500,
         "img": "./assets/remera_jack.png",
@@ -113,7 +113,7 @@
     },
     {
         "id": "campera-max",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Campera Max",
         "precio": 16000,
         "img": "./assets/campera_max.png",
@@ -121,7 +121,7 @@
     },
     {
         "id": "jean-picis",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Jean Picis",
         "precio": 12500,
         "img": "./assets/jean_picis.png",
@@ -129,7 +129,7 @@
     },
     {
         "id": "campera-rock",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Campera Rock",
         "precio": 22000,
         "img": "./assets/campera_rock.png",
@@ -137,7 +137,7 @@
     },
     {
         "id": "bermuda-sport",
-        "categoria": "niño",
+        "categoria": "nino",
         "titulo": "Bermuda Sport",
         "precio": 17000,
         "img": "./assets/bermuda_sport.jpg",

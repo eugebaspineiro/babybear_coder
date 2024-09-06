@@ -18,7 +18,9 @@
     <header class="headerHome">
         <section class="flexNav colorNav">
             <div class="padLogo">
-                <img src="./assets/logo_nav.svg" alt="logo de Baby Bear">
+                <a href="index.html">
+                    <img src="./assets/logo_nav.svg" alt="logo de Baby Bear">
+                </a>
             </div>
             <div class="navIcon">
                 <ion-icon name="search-outline" class="padIcon"></ion-icon>
@@ -36,41 +38,42 @@
             <h1 class="textTitular h1Home">Porque cada prenda es un abrazo, viste a tus pequeños con todo el amor y cariño que se merecen.</h1>
         </div>
         <section class="bannerGrid marginBanner">
-            <article class="shoesGrid flexSecction"> 
-                <a href="./pages/zapatos.html" class="flexSecction">
-                    <img src="./assets/circle_home_01.png" alt="">          
-                    <h2>Zapatos</h2>  
-                </a>               
-          
-            </article>
-            <article class="babyGrid flexSecction">
+            <button id="zapatos" class="shoesGrid flexSecction btn-categoria"> 
+                <div>
+                    <img src="./assets/circle_home_01.png" alt="">
+                </div>
+                <div>
+                    <h2>Zapatos</h2>
+                </div>          
+            </button>
+            <button id="bebe" class="babyGrid flexSecction btn-categoria">
                 <div>
                     <img src="./assets/circle_home_02.png" alt="">
                 </div>
                 <div>
                     <h2>Bebes</h2>
                 </div>
-            </article>
-            <article class="oneGrid flexSecction">
+            </button>
+            <button id="nina" class="oneGrid flexSecction btn-categoria">
                 <div>
                     <img src="./assets/circle_home_03.png" alt="">
                 </div>
                 <div>
                     <h2>Niñas</h2>
                 </div>
-            </article>
-            <article class="fourGrid flexSecction">
+            </button>
+            <button id="nino" class="fourGrid flexSecction btn-categoria">
                 <div>
                     <img src="./assets/circle_boys_03.png" alt="">
                 </div>
                 <div>
                     <h2>Niños</h2>
                 </div>
-            </article>          
+            </button>          
             
         </section>
         <section class="marginBanner mainSectionGrid">
-            <h2 class="textDestacados">Destacados</h2>
+            <h2 class="textDestacados" id="titulo-principal">Destacados</h2>
             <!-- <div class="textFiltro flexFiltro">
                 <ion-icon name="options-outline" class="marginIcon filterIcon"></ion-icon>
                 <h3>Filtros</h3>
@@ -79,34 +82,7 @@
         <section class="marginBanner cardsGrid" id="productos">
             <!-- esta seccion se llena con js -->
         </section>
-        <!-- <section class="sectionCarrito">
-            <div class="marginBanner">
-                <h2 class="textDestacados">Carrito</h2>
-                <div class="carrito">
-                    <div>
-                        <div class="subtitulo subtituloTypo">
-                            <p>Producto/s</p>
-                            <p class="paddCant">Cantidad</p>
-                            <p class="paddPrecio">Precio</p>
-                            <p class="paddSubtotal">Subtotal</p>                                                       
-                        </div>
-                        <img src="./assets/line_carrito.svg" alt="" class="lineCarrito">
-                    </div>
-                    <div id="carrito-vacio" class="">
-                        <p class="carritoTypo">No agregaste nada al carrito aun</p>
-                    </div>
-                    <div class="carrito-productos emptyclass" id="carrito-productos">
-                        esta seccion se llena con js
-                    </div>                    
-                    <div class="carrito-total">
-                        <h2>Total: <span id="carrito-total">$0</span></h2>
-                    </div>
-                    <div class="flexButtonCarrito">
-                        <button class="emptyclass buttonCarrito" id="vaciar-carrito">Vaciar carrito</button>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+        
         <section class="marginBanner flexSpotify">
             <div>
                 <img src="./assets/spotify.jpg" alt="imagen de una madre y un hijo en la naturaleza">

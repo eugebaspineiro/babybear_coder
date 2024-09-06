@@ -302,6 +302,24 @@ li a{
     color: #ffff;
 }
 
+.btn-categoria{
+    background-color: #ffff;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn-categoria:hover{
+    text-decoration: underline;
+    color: nth($colorPalette, 2 );
+}
+
+.seccion-on{
+    color: nth($colorPalette, 2 );
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 /* NavBar */
 
 .headerHome {
