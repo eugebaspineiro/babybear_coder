@@ -11,7 +11,7 @@ let productosGenerales = [];
 
 
 const pedirProductos = async function () {
-    const resp = await fetch ("../data/productos.json");
+    const resp = await fetch ("./data/productos.json");
     const data = await resp.json();  
     return data 
 };
