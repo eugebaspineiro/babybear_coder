@@ -1,6 +1,7 @@
 const contenedorCarrito = document.querySelector("#pag-carrito");
 const carritoVacio = document.querySelector("#carrito-vacio");
 const vaciarCarrito = document.querySelector("#vaciar-carrito");
+const finalizarCompra = document.querySelector("#finalizar-compra");
 
 const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
@@ -107,6 +108,24 @@ vaciarCarrito.addEventListener("click", () => {
                 text: "sweetTypo"
               }
           });
+        }
+      });
+})
+
+//boton finalizar compra
+
+finalizarCompra.addEventListener("click", () => {
+    Swal.fire({
+        title: "Compra Finalizada!",
+        text: "Gracias por realizar tu compra en Baby Bear",
+        imageUrl: "../assets/logo_footer.svg",
+        imageWidth: 350,
+        imageHeight: 150,
+        imageAlt: "Custom image",
+        confirmButtonColor: "#4A8FA5",
+        customClass: {
+            popup: "sweetFormat",
+            text: "sweetTypo",
         }
       });
 })
